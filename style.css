@@ -1,441 +1,377 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food website</title>
-    <link rel="stylesheet" href="sytle.css">
-</head>
-<body>
-    <header>
-        <nav class="nav1">
-            <h1>Food store</h1>
-            <ul>
-                <li><a href="#Home" >Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#app">Download App</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="section" id="Home">
-        <div class="text">
-            <h1 class="primary">
-                Welcome to My Food Store
-            </h1>
-            <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci iusto minima quae pariatur odio rerum, atque ratione nostrum aspernatur repellendus fugit deserunt facere asperiores placeat voluptatum sint perferendis possimus molestias aperiam, expedita ipsum aliquam numquam beatae! Nam, ad repellendus ea placeat pariatur nemo sed aut sint excepturi, labore rerum voluptatibus.</p>
-            <button class="btn1">Explore menu</button>
-        </div>
-        <div class="visual">
-            <img src="hamburger-1238246_640 (1).jpg" alt="" srcset="" class="img1">
-        </div>
-    </div>
-    <div class="section-menu">
-        <div class="text2">
-            <h3>Our Product</h3>
-        </div>
-        <div class="box">
-            <div class="box1">
-                <div class="productbox">
-                <span class="veg">Vegetraian</span>
-                <p class="Japanese">Japanese Gyozas</p>
-                <ul>
-                    <li class="meal-attribute">  
-                         <ion-icon class="meal-icon ios hydrated" name="flame-outline" role="img"></ion-icon>
-                        <span>650 calories</span> </li>
-                    <li class="meal-attribute">
-                        <ion-icon class="meal-icon md hydrated" name="restaurant-outline" role="img"></ion-icon><span>NutriScore ®
-                            <strong>74</strong></span>
-                    </li>
-                    <li class="meal-attribute">
-                        <ion-icon class="meal-icon md hydrated" name="star-outline" role="img"></ion-icon><span><strong>4.9</strong> rating
-                            (537)</span>
-                    </li>
-                </ul></div>
-            </div>
-            <div class="box2">
-                <div class="productbox">
-                    <span class="veg">Vegetraian</span>
-                    <p class="Japanese">Japanese Gyozas</p>
-                <ul>
-                    <li class="meal-attribute">  
-                         <ion-icon class="meal-icon ios hydrated" name="flame-outline" role="img"></ion-icon>
-                        <span>650 calories</span> </li>
-                    <li class="meal-attribute">
-                        <ion-icon class="meal-icon md hydrated" name="restaurant-outline" role="img"></ion-icon><span>NutriScore ®
-                            <strong>74</strong></span>
-                    </li>
-                    <li class="meal-attribute">
-                        <ion-icon class="meal-icon md hydrated" name="star-outline" role="img"></ion-icon><span><strong>4.9</strong> rating
-                            (537)</span>
-                    </li>
-                </ul>
-            </div>
-            </div>
-            <div class="box3">
-                <div class="productbox">
-                    <span class="veg">Vegetraian</span>
-                    <p class="Japanese">Japanese Gyozas</p><ul>
-                <li class="meal-attribute">  
-                 <ion-icon class="meal-icon ios hydrated" name="flame-outline" role="img">
-                 </ion-icon>
-                    <span><strong>650 calories</strong></span> </li>
-                <li class="meal-attribute">
-                    <ion-icon class="meal-icon md hydrated" name="restaurant-outline" role="img"></ion-icon><span>NutriScore ®
-                        <strong>74</strong></span>
-                </li>
-                <li class="meal-attribute">
-                    <ion-icon class="meal-icon md hydrated" name="star-outline" role="img"></ion-icon><span><strong>4.9</strong> rating
-                        (537)</span>
-                </li>
-            </ul></div>
-        </div>    
-        </div>
-    </div>
-    <div class="txt">
-        <h1>How It's Work</h1>
-    </div>
-    <div class="section" id="how-it-works">
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
 
-        <div class="container flex">
-            <div class="boxes">
-                <h3>Easy Order</h3>
-                <ion-icon name="timer-outline" role="img" class="md hydrated meal-icon-work"></ion-icon>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-                    non?
-                </p>
-            </div>
+:root {
+    --clr-primary: deeppink;
+    --clr-secondary: #272d36;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color:whitesmoke;
+}
 
-            <div class="boxes active">
-                <h3>Best Quality</h3>
-                <ion-icon style="color: black;" name="trophy-outline" role="img" class="md hydrated meal-icon-work"></ion-icon>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-                    non?
-                </p>
-            </div>
-            <div class="boxes">
-                <h3>Fast Delivery</h3>
-                <ion-icon name="checkmark-done-circle-outline" role="img" class="md hydrated meal-icon-work"></ion-icon>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-                    non?
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- About -->
-    <div class="about" id="About">
-        <div class="container1">
-            <div class="virsual">
-                <img src="hamburger-1238246_640 (1).jpg" alt="" srcset="">
-            </div>
-            <div class="text">
-                <div class="first">About Our Restaurant</div>
-                <h2 class="sec">Our Delicious Food</h2>
-                <h3 class="third">
-                    Our Delicious Food
-            </h3>
-                <p class="lorem" style="padding-bottom: 20px; font-size: 20px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
-                    itaque saepe id hic rem doloribus quas esse voluptatibus eius sequi,
-                    possimus maxime dolores tempore facilis fugit porro mollitia, est
-                    consequuntur.</p>
-                    <a  class="btn1" href="#menu">Expore Menu</a>
-            </div>
-        </div>
-    </div>
-    <div class="section" id="menu">
-        <div class="container-menu">
-            <ul class="category">
-                <li class="active">All</li>
-                <li>Biryani</li>
-                <li>Chicken</li>
-                <li>Pizza</li>
-                <li>Burger</li>
-                <li>Pasta</li>
-            </ul>
+nav{
+    width: 100%;
+    cursor: pointer;
+    font-family: sans-serif;
+    display: flex;
+    background-color:#ffffff ;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 10px  0 10px black;
+}
 
-            <div class="container3">
-                <div class="restaurant-menu">
-                    <div class="menu-item">
-                        <img class="images" src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-1.jpg" alt="">
+nav ul,li{
+    list-style: none;
+    gap: 20px;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: background-color 1s;
+    border-radius: 5px;
+}
+a:hover{
+    color: #ffffff;
+  background-color: rgb(153, 153, 152);
+}
+.section{
+    font-family: "Josefin Sans", sans-serif;
+    background-color: whitesmoke;
+    margin: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text .primary{
+    width: 70%;
+    font-size: 65px;
+}
+.lorem{
+    font-family: monospace;
+    width: 70%;
+    margin: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img1{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+.visual{
+    width: 50%;
+}
+.btn1{
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    color: #ffffff;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 3px;
+    padding: 15px;
+    background-color: var(--clr-primary);
+    transition: background-color 1s;
+}
+.btn1:hover{
+    color: #ffffff;
+  background-color: rgb(153, 153, 152);
+}
+.section-menu{
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 35px;
+    font-family: sans-serif;
+}
+.section-menu .text2{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
 
-                        <div class="title">Food Restaurant | Chineese &amp; Thai</div>
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.box1{
+    border-radius: 8px;
+    width: 200px;
+    height: 300px;
+    margin: 30px;
+    margin-bottom: 100px;
+    background-color:#ffffff ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: transform 1s;
+}
+.box1:hover{
+    transform: scale(1.1);
+}
+.box2{
+    border-radius: 8px;
+    height: 300px;
+    width: 200px;
+    margin: 30px;
+    margin-bottom: 100px;
+    background-color:#ffffff ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: transform 1s;
+}
+.box2:hover{
+    transform: scale(1.1);
+}
+.meal-icon{
+    color: orange;
+    font-size: 30px;
+}
+.meal-attribute{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box3{
+    border-radius: 8px;
+    width: 200px;
+    height: 300px;
+    margin: 30px;
+    margin-bottom: 100px;
+    background-color:#ffffff ;
+    transition: transform 1s;
+    box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.box3:hover{
+    transform: scale(1.1);
+}
+.veg{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgb(13, 238, 13);
+}
+.Japanese{
+    padding: 10px;
+}
+.txt{
+    margin: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productbox{
+    margin: 40px;
+}
+.boxes{ 
+    display: block;
+    width: 30%;
+    background-color: #ffffff;
+    margin: 10px;
+    box-shadow: 4px 5px 3px rgb(105, 100, 100);
+    border-radius: 5px;
+    transition: all 1s;
+}
+.images{
+    padding: 5px;
+    border-radius: 10px;
+    width: 260px;
+}
+.boxes >h3{
+    text-align: center;
+    margin: 10px;
+}
+.boxes >p{
+    margin: 5px;
+    padding: 10px;
+}
+.boxes:hover{
+    transform: matrix3d(1, 0.1,0.4, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
+.about{
+    background-color: #ffffff;
+    margin: 10px;
+    width: 100%;
+}
+.container1{
+    margin: 10px;
+    display: flex;
+}
+.virsual >img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 320px;
+    height: 300px;
+    border-radius: 50%;
+   
+}
+.text{
+    margin: 30px;
+}
+.first{
+    padding-bottom: 10px;
+    font-family: none;
+    font-size: 35px;
+    font-weight: bolder;   
+}
+.sec{
+    font-size: 37px;
+    padding-bottom: 10px;
+}
+.third{
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+.virsual > p{
+    padding-bottom: 30px;
+    font-family: cursive;
+}
+.category{
+    display: flex;
+    justify-content: center;
+}
+.category >li{
+    cursor: pointer;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.meal-icon-work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.restaurant-menu{
+    display: flex;
+    flex-wrap: wrap;
 
-                        <div class="location">Lahore, Pakistan</div>
+}
+.menu-item{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 275px;
+    align-items: center;
+    background-color:rgb(255, 254, 254);
+    margin: 20px;
+    box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.title , .location{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.order{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 400;
+    font-size: 20px;
+}
+.btn-menu{
+    border: 2px solid rgb(240, 144, 160);
+    color: palevioletred;
+    transform: scale(1);
+    transition:  transform 0.5s;
+}
+.btn-menu:hover{
+    transform: scale(1.1);
+    background-color: whitesmoke;
+    color: palevioletred;
+}
+.section-question{
+    background-color: #ffffff;
+    width: 100%;
+}
+.secondary{
+    margin: 20px;
+    padding: 10px;
+    font-size:30px;
+    text-align: center;
+}
+.faq{
+    width: 100%;
+    margin: 30px;
+    text-align: center;
+}
+details{
+    margin: 0 auto;
+    padding: 1rem;
+    border: .8px solid rgb(136, 133, 133);
+    box-shadow: 1px 1px 3px rgb(97, 94, 94);
+    border-style: outset;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    max-width: 800px;
+    text-align: center;
+}
+.second{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
-                        <div class="order flex">
-                            <div class="price">$25.00</div>
-                            <a href="#" class="btn btn-menu">Order Now</a>
-                        </div>
-                    </div>
+}
+.lor{
+    text-align: center;
+    font-size: 25px;
+}
+.download{
+    margin-top: 20px;
+    display: flex;
+}
+.playstore{
+    font-size: 30px;
+    padding: 5px;
+}
+.app-store
+{
+    display: flex;
+    margin-left: 0;
+    margin: 10px;
+    color: #fff;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+.footer{
+    width: 100vw;
+    background-color: #fff;
+}
+.footer h2{
+    color: rgb(255, 128, 149);
+}
+.contain{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-about{
+    width: 30%;
 
-                    <div class="menu-item">
-                        <img class="images" src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-2.jpg" alt="">
-
-                        <div class="title">Food Restaurant | Chineese &amp; Thai</div>
-
-                        <div class="location">Lahore, Pakistan</div>
-
-                        <div class="order flex">
-                            <div class="price">$25.00</div>
-                            <a href="#" class="btn btn-menu">Order Now</a>
-                        </div>
-                    </div>
-
-                    <div class="menu-item">
-                        <img class="images" src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-1.jpg" alt="">
-
-                        <div class="title">Food Restaurant | Chineese &amp; Thai</div>
-
-                        <div class="location">Lahore, Pakistan</div>
-
-                        <div class="order flex">
-                            <div class="price">$25.00</div>
-                            <a href="#" class="btn btn-menu">Order Now</a>
-                        </div>
-                    </div>
-
-                    <div class="menu-item">
-                        <img  class="images" src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-3.jpg" alt="">
-
-                        <div class="title">Food Restaurant | Chineese &amp; Thai</div>
-
-                        <div class="location">Lahore, Pakistan</div>
-
-                        <div class="order flex">
-                            <div class="price">$25.00</div>
-                            <a href="#" class="btn btn-menu">Order Now</a>
-                        </div>
-                    </div>
-
-                    <div class="menu-item">
-                        <img class="images" src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-1.jpg" alt="">
-
-                        <div class="title">Food Restaurant | Chineese &amp; Thai</div>
-
-                        <div class="location">Lahore, Pakistan</div>
-
-                        <div class="order flex">
-                            <div class="price">$25.00</div>
-                            <a href="#" class="btn btn-menu">Order Now</a>
-                        </div>
-                    </div>
-
-                    <div class="menu-item">
-                        <img class="images"  src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-4.jpg" alt="">
-
-                        <div class="title">Food Restaurant | Chineese &amp; Thai</div>
-
-                        <div class="location">Lahore, Pakistan</div>
-
-                        <div class="order flex">
-                            <div class="price">$25.00</div>
-                            <a href="#" class="btn btn-menu">Order Now</a>
-                        </div>
-                    </div>
-                    
-
-                    <div class="menu-item">
-                        <img class="images" src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-5.jpg" alt="">
-
-                        <div class="title">Food Restaurant | Chineese &amp; Thai</div>
-
-                        <div class="location">Lahore, Pakistan</div>
-
-                        <div class="order flex">
-                            <div class="price">$25.00</div>
-                            <a href="#" class="btn btn-menu">Order Now</a>
-                        </div>
-                    </div>
-                    <div class="menu-item">
-                        <img class="images" src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/menu-6.jpg" alt="">
-
-                        <div class="title">Food Restaurant | Chineese &amp; Thai</div>
-
-                        <div class="location">Lahore, Pakistan</div>
-
-                        <div class="order flex">
-                            <div class="price">$25.00</div>
-                            <a href="#" class="btn btn-menu">Order Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section-question" id="faq">
-        <h2 class="secondary">Frequently Asked Questions</h2>
-
-        <div class="faq">
-            <details>
-                <summary>I got wrong food what shoud I do?</summary>
-                <div class="content">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Asperiores amet sunt at?
-                    </p>
-                </div>
-            </details>
-
-            <details>
-                <summary>I got wrong food what shoud I do?</summary>
-                <div class="content">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Asperiores amet sunt at?
-                    </p>
-                </div>
-            </details>
-
-            <details>
-                <summary>I got wrong food what shoud I do?</summary>
-                <div class="content">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Asperiores amet sunt at?
-                    </p>
-                </div>
-            </details>
-
-            <details>
-                <summary>I got wrong food what shoud I do?</summary>
-                <div class="content">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Asperiores amet sunt at?
-                    </p>
-                </div>
-            </details>
-        </div>
-    </div>
-    <div class="section" id="app">
-        <div class="container flex">
-            <div class="app-photo">
-                <img width="500px" src="pngegg.png" alt="">
-            </div>
-
-            <div class="text">
-                <h2 class="second">Download The FoodLover App</h2>
-                <p class="lor">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-                    laudantium velit iure illo facilis at delectus sint, doloribus
-                    magnam officiis rerum nobis, perspiciatis maxime repellat qui
-                    consequuntur? Aspernatur, architecto voluptatum!
-                </p>
-
-                <div class="download flex">
-                    <div class="app-store">
-                        <ion-icon name="logo-google-playstore" role="img" class="playstore"></ion-icon>
-                        <p>
-                            GET IT ON <br>
-                            <span>Google Play</span>
-                        </p>
-                    </div>
-
-                    <div class="app-store">
-                        <ion-icon name="logo-apple" role="img" class="playstore"></ion-icon>
-                        <p>
-                            Donload on the <br>
-                            <span>App Store</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
-        <div class="contain">
-            <div class="footer-about">
-                <h2>About</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                    aspernatur sit deleniti enim voluptas voluptatum incidunt rerum,
-                    exercitationem voluptate nemo quo impedit ad perspiciatis tempore
-                    nulla dolore fugit, fuga eos.
-                </p>
-            </div>
-
-            <div class="footer-category">
-                <h2>Our Menu</h2>
-
-                <ul>
-                    <li>Biryani</li>
-                    <li>Chicken</li>
-                    <li>Pizza</li>
-                    <li>Burger</li>
-                    <li>Pasta</li>
-                </ul>
-            </div>
-
-            <div class="quick-links">
-                <h2>Quick Links</h2>
-
-                <ul>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li>Menu</li>
-                    <li>Order</li>
-                    <li>Services</li>
-                </ul>
-            </div>
-
-            <div class="get-in-touch">
-                <h2>Get in touch</h2>
-                <ul>
-                    <li>Account</li>
-                    <li>Support Center</li>
-                    <li>Feedback</li>
-                    <li>Suggession</li>
-                </ul>
-            </div>
-        </div>
-        <hr>
-        <div class="copyright">
-            <p>Copyright © 2024 Design By DeveloperGTM</p>
-        </div>
-    </div>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule="" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
-    <script nomodule="" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
-    <script>
-        // <![CDATA[  <-- For SVG support
-        if ('WebSocket' in window) {
-            (function () {
-                function refreshCSS() {
-                    var sheets = [].slice.call(document.getElementsByTagName("link"));
-                    var head = document.getElementsByTagName("head")[0];
-                    for (var i = 0; i < sheets.length; ++i) {
-                        var elem = sheets[i];
-                        var parent = elem.parentElement || head;
-                        parent.removeChild(elem);
-                        var rel = elem.rel;
-                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-                        }
-                        parent.appendChild(elem);
-                    }
-                }
-                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-                var address = protocol + window.location.host + window.location.pathname + '/ws';
-                var socket = new WebSocket(address);
-                socket.onmessage = function (msg) {
-                    if (msg.data == 'reload') window.location.reload();
-                    else if (msg.data == 'refreshcss') refreshCSS();
-                };
-                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-                    console.log('Live reload enabled.');
-                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-                }
-            })();
-        }
-        else {
-            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-        }
-        // ]]>
-    </script>
-</body>
-</html>
+}
+hr{
+    margin: 10px;
+}
+.copyright{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
